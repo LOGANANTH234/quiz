@@ -28,8 +28,7 @@ public class QuizController {
         return "failure";
     }
 
-        @GetMapping("" +
-                "")
+        @GetMapping("getAllQuiz")
     public List<Quiz> getAllQuiz() {
         return quizService.getAllQuiz();
     }
