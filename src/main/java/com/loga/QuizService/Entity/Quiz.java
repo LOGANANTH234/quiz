@@ -17,6 +17,7 @@ public class Quiz {
     private Integer noOfQuestions;
     private String topic;
     private List<onlyQuestion> questionsList;
-private  List<onlyAnswer>onlyAnswerList;
+
+
 
 }
